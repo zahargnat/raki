@@ -1,0 +1,111 @@
+.html{
+  background-color: #c0c0c0;
+}
+
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  background-color:#c0c0c0;
+}
+
+.header {
+  padding-bottom: 20px;
+}
+
+.header__logo {
+  width: 70px;
+  height: 70px;
+}
+
+.header__button-modal {
+  display: block;
+  color: white;
+  border: none;
+  background-color: #c0c0c0;  
+}
+
+// модалка
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.overlay.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s ease-in;
+}
+
+.menu {
+  z-index: 1001;
+  position: absolute;
+  width: 130px;
+  height: 100px;
+  right: 20px;
+  top: 50px;
+  background: #fefefe;
+  box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
+  border-radius: 30px 0px 30px 30px;
+
+  .menu__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu__item {
+    height: 51px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    transition: all 0.3s ease-out;
+    .modal__item:nth-child(1) {
+      border-top-left-radius: 30px;
+    }
+    .modal__item:last-child {
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+    .modal__item:hover {
+      background-color: #bbf330;
+    }
+  }
+
+  .menu__link {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: #000;
+  }
+
+  .menu__button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+    right: 4px;
+    top: 4px;
+  }
+}
+.menu__button {
+  height: 24px;
+  width: 24px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}

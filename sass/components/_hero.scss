@@ -1,0 +1,47 @@
+.hero .container {
+  width: 320px;
+}
+
+.hero{
+  padding-bottom: 30px;
+}
+
+.hero__title {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.hero__adress{
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.hero__span{
+
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.hero__raki{
+  color: red;
+}
+
+.hero__list{
+  display: flex;
+  flex-wrap: wrap;
+}

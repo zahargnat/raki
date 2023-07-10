@@ -1,0 +1,51 @@
+.shop .container{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.shop__item {
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-bottom: 40px;
+  
+}
+
+.shop__raki-title {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.shop__raki {
+  color: brown;
+}
+
+
+.shop__raki-text{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.shop__contact{
+color: #000000;
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+display: flex;
+justify-content: end;
+}
